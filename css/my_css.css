@@ -1,0 +1,68 @@
+.alert{
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    width:30%;
+    
+}
+@media only screen and (max-width: 1100px){
+    .alert{
+    width:50%;
+    
+}
+    
+}
+
+
+@media only screen and (max-width: 700px){
+    .alert{
+    width:90%;
+    
+}
+    
+}
+
+/*_____________________________________________________pagination*/
+#pages_number_all_div{text-align: right;}
+
+/*__________________________________________________END___pagination*/
+
+/*_______________________________________________________status_buttons_*/
+.status_buttons_all_div{}
+.status_buttons_all_div a{ margin-left:10px; border:1px solid #eee; padding:2px 5px; display: inline-block;}
+
+@media only screen and (max-width: 700px){
+
+.status_buttons_all_div a{ display:block; padding: 10px 5px;}
+    
+}
+/*___________________________________________________END____status_buttons_*/
+
+/*________________________________________________________upload_image*/
+
+              .upload_img_all_div{
+                  width:300px;
+                  height: 250px;
+                  border-radius: 0;
+                  overflow: hidden;
+                  position: relative;
+                  background-size: 100% 100%;
+                  float: left;
+                  
+                  margin: 2%;
+                  border:1px solid #eeeeee;
+                  
+              }
+              #upload_img_progress_div { }
+              @media only screen and (max-width: 800px){.upload_img_all_div{width:96%;}}
+              
+              .upload_img_all_div input[type='file']{
+                  padding:100%;
+                  position: absolute;
+                  left:0;
+                  top:0px;
+                  
+                  
+              }
+      
+/*__End__________________________________________________END____upload_image*/        
